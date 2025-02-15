@@ -130,3 +130,8 @@ This project successfully implemented a **Hybrid Deep Learning Model** using **V
 While the model showed **strong classification ability**, challenges remain in **distinguishing visually similar lesions**. Future improvements could include **additional metadata, advanced augmentation techniques, and larger datasets** to further enhance classification accuracy.  
 
 This work highlights how **hybrid architectures and optimized training strategies** can **advance automated skin disease diagnosis**, contributing to the field of **medical image analysis**. 
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
