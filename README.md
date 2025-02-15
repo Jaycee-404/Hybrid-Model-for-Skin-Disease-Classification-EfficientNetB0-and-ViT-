@@ -28,6 +28,12 @@ Each model is trained separately and evaluated for performance comparison.
 
 Link: https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000
 
+1. HAM10000_metadata.csv
+
+2. HAM10000_images_part_1
+
+3. HAM10000_images_part_2
+
 
 The **HAM10000** dataset consists of **10,015 labeled dermatoscopic images** categorized into **seven types of skin lesions**:  
 
