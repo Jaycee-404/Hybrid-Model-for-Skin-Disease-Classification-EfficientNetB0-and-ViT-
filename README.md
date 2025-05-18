@@ -92,18 +92,24 @@ The model underwent several experimental phases to enhance performance and overc
 
 ---
 
-### **Improvements with Data Augmentation & Early Stopping**  
+### Improvements with Data Augmentation, Early Stopping & Hybrid Architecture
 
-#### **Techniques Applied**  
-- **Transformations:** Random rotation, horizontal flipping, zoom, and brightness adjustments.  
-- **Early Stopping:** Stopped training when validation loss no longer improved.  
+#### Techniques Applied
+- Hybrid Deep Learning Model combining EfficientNetB0 (local feature extraction) and Vision Transformer (ViT2) (global attention mechanism).
+- Data augmentation using:
+  - Random rotation
+  - Horizontal flipping
+  - Zoom
+  - Brightness adjustments
+- Early stopping to prevent overfitting by halting training when validation loss stops improving.
 
-#### **Impact**  
-- **Improved Generalization:** Reduced overfitting significantly.  
-- **Stable Training:**  
-  - **Training Loss:** Decreased from **0.6988 → 0.1491**.  
-  - **Training Accuracy:** Increased from **73.63% → 95.06%**.  
-- **Validation Accuracy:** Increased from **73.84% → 86.82%**, showing strong improvement.  
+#### Impact
+- Improved generalization with significant reduction in overfitting.
+- Stable training:
+  - Training loss decreased from 0.6988 to 0.1491.
+  - Training accuracy increased from 73.63% to 95.06%.
+- Validation accuracy improved from 73.84% to 86.82%, showing strong generalization.
+
 
 ---
 
