@@ -5,10 +5,9 @@
 ### Using EfficientNetB0 and Vision Transformer (ViT2)  
 
 
+hybrid deep learning system that combines EfficientNetB0 and Vision Transformer (ViT2) to accurately classify seven common skin diseases from dermatoscopic images. Trained on the large-scale HAM10000 dataset, this model aims to assist dermatologists by providing automated, reliable skin lesion diagnosis to improve early detection and patient outcomes. 
 
-This project implements a **Hybrid Deep Learning Model** combining **EfficientNetB0** and **Vision Transformer (ViT2)** for automated skin disease classification. The model is trained on the **HAM10000 dataset** to identify **seven types of skin lesions** with high accuracy.  
-
-Additionally, **separate models** using only **EfficientNetB0** and **ViT2** are also provided for individual performance comparison.  
+Separate EfficientNetB0 and ViT2 models were also implemented for benchmarking individual performance. 
 
 ---
 
